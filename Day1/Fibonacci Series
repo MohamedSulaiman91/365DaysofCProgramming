@@ -1,0 +1,25 @@
+# include <stdio.h>
+void main()
+{
+int i=1,n,a=0,b=1,c;
+printf("****FIBONACCI SERIES OF THE GIVEN NUMBER****");
+printf("\nEnter a number:");
+scanf("%d",&n);
+/*for(i=1;i<=n;i++)
+{
+    printf("\n%d",a);
+    c=a+b;
+    a=b;
+    b=c;
+
+}*/
+//i=1;
+while(i<=n)
+{
+    printf("\n%d",a);
+    c=a+b;
+    a=b;
+    b=c;
+    i++;
+}
+}
